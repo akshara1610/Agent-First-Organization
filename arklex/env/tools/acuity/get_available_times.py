@@ -7,17 +7,10 @@ from arklex.env.tools.acuity.utils import EXCEPTIONS
 description = "Get the available times of the info session based on the specific date"
 slots = [
     {
-        "name": "year",
+        "name": "date",
         "type": "string",
-        "description": "The current year. If you are not sure, you could ask the user to confirm. e.g. 2025",
+        "description": "The date of the info session the user wants to attend. It should consist of year, month, day. e.g. 2025-04-12. If you are not sure about the user's input, ask them to confirm.",
         "prompt": "",
-        "required": True,
-    },
-    {
-        "name": "month",
-        "type": "string",
-        "description": "The month of the available info session held by the organization. e.g. January, 1, Jan. If you have known the date, transform to 01.",
-        "prompt": "Could you please give me the month you want to attend the info session?",
         "required": True,
     },
     {
@@ -26,38 +19,28 @@ slots = [
         "description": "The appointment id of the info session and it should be consisted of numbers. e.g. 76474933",
         "prompt": "Which info session would you like to attend?",
         "required": True,
-    },
-    {
-        "name": "session_types",
-        "type": "string",
-        "description": "ll available information sessions types",
-        "prompt": "",
-        "required": True,
-    },
+    }
 ]
 outputs = [
     {
-        "name": "date_ls",
+        "name": "time_ls",
         "type": "string",
-        "description": "The available date of the specific info session in this specific month",
+        "description": "The available times of the specific info session",
     }
 ]
 CREDENTIAL_NOT_FOUND = 'error: missing credential information'
-errors= [
+errors = [
     EXCEPTIONS
 ]
 
 @register_tool(description, slots, outputs, lambda x: x not in errors)
-def get_available_date(year, month, apt_name, session_types, **kwargs):
+def get_available_times(date, apt_id, **kwargs):
     user_id = kwargs.get('ACUITY_USER_ID')
     api_key = kwargs.get('ACUITY_API_KEY')
     if not api_key or not user_id:
         return CREDENTIAL_NOT_FOUND
-    session_types = json.loads(session_types)
-    session = [session for session in session_types if session.get("name") == apt_name]
-    apt_id = session[0].get("id")
 
-    base_url = 'https://acuityscheduling.com/api/v1/availability/dates?appointmentTypeID={}1&month={}'.format(apt_id, year + '-' + month)
+    base_url = 'https://acuityscheduling.com/api/v1/availability/times?appointmentTypeID={}&date={}'.format(apt_id, date)
     response = requests.get(base_url, auth=HTTPBasicAuth(user_id, api_key))
 
     if response.status_code == 200:
