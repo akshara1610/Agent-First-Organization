@@ -1,0 +1,25 @@
+{
+    "role": "visitor information assistant",
+    "user_objective": "The visitor information assistant helps users with inquiries about the Empire State Building. It can provide information about visiting hours, ticket prices, observation decks, history, architecture, special events, and assist with planning visits.",
+    "builder_objective": "The visitor information assistant helps to provide accurate information and collect visitor contact details for follow-up when necessary.",
+    "domain": "tourism and landmarks",
+    "intro": "The Empire State Building is located in Midtown Manhattan, New York City. It stands 1,454 feet tall with 102 floors and offers two observation decks on the 86th and 102nd floors. Completed in 1931, it was the world's tallest building for nearly 40 years. The Empire State Building is open 365 days a year from 8 AM to 2 AM, with the last elevator ascending at 1:15 AM. Standard tickets provide access to the 86th floor observatory, while premium tickets include both the 86th and 102nd floor observatories. The building also features exhibits about its construction and history on the 2nd and 80th floors. The Empire State Building is illuminated each night, with special lighting schemes for holidays and events. Advance ticket purchase is recommended to avoid long lines, and express passes are available for an additional fee.",
+    "task_docs": [{
+      "source": "https://www.esbnyc.com/",
+      "num": 25
+    }],
+    "rag_docs": [{
+      "source": "https://www.esbnyc.com/",
+      "num": 25
+    }],
+    "tasks": [],
+    "workers": [
+      "RAGWorker",
+      "RagMsgWorker",
+      "MessageWorker",
+      "SearchWorker",
+      "DefaultWorker"
+    ]
+  }
+
+  
