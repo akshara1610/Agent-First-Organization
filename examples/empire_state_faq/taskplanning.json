@@ -1,0 +1,73 @@
+[
+    {
+        "task_name": "Provide information on visiting hours",
+        "steps": [
+            "Provide information on visiting hours"
+        ]
+    },
+    {
+        "task_name": "Provide ticket pricing information",
+        "steps": [
+            "Provide ticket pricing information"
+        ]
+    },
+    {
+        "task_name": "Provide information on the 86th and 102nd-floor observation decks",
+        "steps": [
+            "Provide information on the 86th and 102nd-floor observation decks"
+        ]
+    },
+    {
+        "task_name": "Provide information on the history and architecture of the Empire State Building",
+        "steps": [
+            "Provide information on the history and architecture of the Empire State Building"
+        ]
+    },
+    {
+        "task_name": "Provide information on upcoming special events and exhibits",
+        "steps": [
+            "Ask the user what specific information they are looking for regarding special events and exhibits at the Empire State Building.",
+            "Use the RAGWorker to search the company's internal documentation for information on upcoming special events and exhibits based on the user's input.",
+            "Provide the user with detailed information about the upcoming special events and exhibits, including dates, times, locations, and any other relevant details.",
+            "Ask the user if they need more information or have any other questions related to the special events and exhibits.",
+            "If the user requests additional details, use the RAGWorker again to provide further information. Otherwise, offer assistance with other inquiries or thank the user for their interest."
+        ]
+    },
+    {
+        "task_name": "Assist with planning visits and provide recommendations",
+        "steps": [
+            "Inquire about the user's planned visit date, time preferences, and specific interests related to the Empire State Building (e.g., history, architecture, observation decks).",
+            "Utilize the RAGWorker to provide personalized recommendations and relevant information based on the user's input and the company's internal documentation.",
+            "Ask if the user has any further questions or needs additional assistance with planning their visit.",
+            "Confirm the user's plans, offer any last-minute tips, and summarize the visit itinerary if needed."
+        ]
+    },
+    {
+        "task_name": "Provide information on safety measures and accessibility options",
+        "steps": [
+            "Provide information on safety measures and accessibility options"
+        ]
+    },
+    {
+        "task_name": "Provide information on tower lighting and its significance",
+        "steps": [
+            "Provide information on tower lighting and its significance"
+        ]
+    },
+    {
+        "task_name": "Provide information on the Empire State Building Run-Up event",
+        "steps": [
+            "Provide information on the Empire State Building Run-Up event"
+        ]
+    },
+    {
+        "task_name": "Provide information on educational programs and materials",
+        "steps": [
+            "Inquire about the user's specific interests or questions regarding educational programs and materials related to the Empire State Building.",
+            "Use the RAGWorker to retrieve detailed information from the internal documentation about the educational programs and materials that match the user's interests.",
+            "Present the information to the user, highlighting key details such as program content, target audience, availability, and how to access the materials.",
+            "Ask if the user needs further information or assistance related to educational programs or other services offered by the Empire State Building.",
+            "Provide additional information or direct the user to relevant resources or contacts for more complex inquiries."
+        ]
+    }
+]

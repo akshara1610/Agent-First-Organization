@@ -1,0 +1,225 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "hi, whats the best time to visit empire state building to avoid crowds and get good views?",
+            "intent": "user needs help planning their visit"
+        },
+        {
+            "role": "assistant",
+            "content": "Hi! The best times to visit the Empire State Building to avoid crowds and enjoy great views are early in the morning between 8:00 AM and 10:00 AM or after 9:00 PM. Visiting during these hours typically provides a quieter experience. Plus, for the best views, consider going on a clear day. If you have any more questions or need help planning your visit, feel free to ask"
+        },
+        {
+            "role": "user",
+            "content": "thanks! do you know if weekdays are less crowded than weekends?",
+            "intent": "others"
+        },
+        {
+            "role": "assistant",
+            "content": "Yes, weekdays are generally less crowded than weekends at the Empire State Building. Mondays and Tuesdays tend to be the quietest days, as they are less popular with tourists who often start arriving later in the week for weekend getaways. If you can plan your visit during a weekday, you're likely to have a more relaxed experience with fewer crowds. Let me know if there's anything else I can help with"
+        },
+        {
+            "role": "user",
+            "content": "great, that helps a lot! do you recommend buying tickets in advance?",
+            "intent": "others"
+        },
+        {
+            "role": "assistant",
+            "content": "Yes, I definitely recommend buying tickets in advance for the Empire State Building. This can help you avoid long lines and ensure a smoother experience. You can also consider purchasing express passes for an even faster entry. Do you have any further questions or need additional assistance with planning your visit"
+        },
+        {
+            "role": "user",
+            "content": "thanks, i'll get them online then. do express passes work for both observatories?",
+            "intent": "user seeks details on observation decks"
+        },
+        {
+            "role": "assistant",
+            "content": "Yes, express passes provide expedited entry to both the 86th and 102nd floor observatories. This means you can bypass all queues and enjoy your visit without the wait. If you have any more questions or need help with anything else, feel free to ask"
+        },
+        {
+            "goal_completetion": true
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "how do i enter the lottery for the 2025 empire state building run-up?",
+            "intent": "user wants details on the run-up event"
+        },
+        {
+            "role": "assistant",
+            "content": "To enter the lottery for the 2025 Empire State Building Run-Up, you can participate in the general lottery which opens from July 1st to July 15th, 2025. Make sure to register within this period to have a chance at securing a spot. If you're a tenant of ESRTREIT Properties, there's a separate tenant lottery from July 17th to July 31st, 2025. Alternatively, you can join Team CAF to bypass the lottery with a guaranteed entry by fundraising for charity. Let me know if you need more details or assistance"
+        },
+        {
+            "role": "user",
+            "content": "thanks! how do i join team caf to support the challenged athletes foundation?",
+            "intent": ""
+        },
+        {
+            "role": "assistant",
+            "content": "To join Team CAF and support the Challenged Athletes Foundation, you can start by visiting their official website and looking for the Team CAF section. Typically, you would need to sign up for an event or initiative, commit to fundraising a certain amount, and spread the word about your efforts to help raise funds for CAF. By doing so, not only do you support a great cause, but you may also gain access to special events like the Empire State Building Run-Up. If you need more specific instructions or help navigating the process, feel free to ask"
+        },
+        {
+            "role": "user",
+            "content": "great, i'll check their website. thanks for the help!",
+            "intent": ""
+        },
+        {
+            "role": "assistant",
+            "content": "You're welcome! If you have any more questions or need further assistance with planning your visit to the Empire State Building, feel free to ask. Enjoy your day"
+        },
+        {
+            "role": "user",
+            "content": "will do, thanks again!",
+            "intent": ""
+        },
+        {
+            "role": "assistant",
+            "content": "You're welcome! If you have any more questions or need further assistance with planning your visit to the Empire State Building, feel free to ask. Enjoy your day"
+        },
+        {
+            "goal_completetion": true
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "hi, when's the best time to visit empire state building to avoid crowds and get good views?",
+            "intent": "user needs help planning their visit"
+        },
+        {
+            "role": "assistant",
+            "content": "Hi! The best time to visit the Empire State Building to avoid crowds and enjoy great views is either early in the morning or late at night. Arriving right when it opens at 8 AM will give you a quieter experience with smaller queues. For stunning nighttime views, visiting after 10 PM is ideal, especially from Thursday to Saturday when there's live saxophone music on the 86th-floor observatory. Additionally, visiting on a clear day will enhance your view of the New York City skyline. Let me know if you need any more information"
+        },
+        {
+            "role": "user",
+            "content": "thanks! do you know if weekdays are less crowded than weekends?",
+            "intent": "others"
+        },
+        {
+            "role": "assistant",
+            "content": "Yes, weekdays are generally less crowded than weekends at the Empire State Building. Visiting on a Monday or Tuesday is typically quieter, as these days tend to have fewer domestic travelers and local visitors. If you can plan your visit during the week, you\u2019ll likely have a more relaxed experience. If you have any more questions or need help planning your visit, feel free to ask"
+        },
+        {
+            "role": "user",
+            "content": "great, that helps a lot! do you think i should get tickets in advance or is it okay to buy them there?",
+            "intent": "others"
+        },
+        {
+            "role": "assistant",
+            "content": "It's highly recommended to buy your tickets in advance online. This way, you can avoid long queues at the ticket office and head straight to security, saving you time and making your visit more convenient. Plus, purchasing online allows you to secure your preferred time slot. However, if you prefer, you can also buy tickets on-site at the Empire State Building, but be prepared for potential wait times, especially during peak hours. Let me know if you need more assistance"
+        },
+        {
+            "role": "user",
+            "content": "got it, i'll get them online then. thanks for the help!",
+            "intent": "others"
+        },
+        {
+            "role": "assistant",
+            "content": "You're welcome! Just to confirm your plans: You're planning to visit the Empire State Building on a weekday, ideally early in the morning or late at night to avoid crowds, and you'll be purchasing your tickets online in advance. Here are some last-minute tips for your visit to the Empire State Building:   - Check the weather forecast to ensure you'll have clear views. - Bring your camera for some amazing photo opportunities. - Consider downloading the official Empire State Building app for an audio tour. - Don\u2019t forget to explore the exhibits on the 2nd and 80th floors.   If you have any more questions or need further assistance, feel free to reach out. Have a great visit"
+        },
+        {
+            "goal_completetion": true
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "hi, can u tell me which celebs visited recently? any events coming up with celebs?",
+            "intent": "user wants to know about special events"
+        },
+        {
+            "role": "assistant",
+            "content": "I'm here to help with inquiries about the Empire State Building. For celebrity events, you might want to check event calendars or entertainment news websites for the latest updates. If you need details about visiting the Empire State Building, feel free to ask"
+        },
+        {
+            "role": "user",
+            "content": "ok, but do u have any info on recent celeb visits or upcoming appearances at the building?",
+            "intent": "others"
+        },
+        {
+            "role": "assistant",
+            "content": "The Empire State Building often hosts a variety of celebrities and dignitaries, but specific details about recent or upcoming visits aren't usually publicly disclosed in advance. However, you can keep up with any announcements or special events by following the Empire State Building's official social media channels or checking for updates on their website. If you have any other questions or need assistance with planning your visit to the Empire State Building, feel free to ask"
+        },
+        {
+            "role": "user",
+            "content": "thanks! i'll check their social media then. do u know if they post about celeb visits there?",
+            "intent": "others"
+        },
+        {
+            "role": "assistant",
+            "content": "Yes, the Empire State Building often shares updates about celebrity visits and special events on their social media platforms. They use platforms like Twitter, Facebook, Instagram, and TikTok to keep followers informed and engaged. So, following their official accounts is a great way to stay updated on any celebrity appearances or events. If you have any more questions or need further assistance, feel free to let me know"
+        },
+        {
+            "role": "user",
+            "content": "got it, i'll follow them. thx for the help!",
+            "intent": "others"
+        },
+        {
+            "role": "assistant",
+            "content": "You're welcome! Let me fetch more details for you. Please hold on. If there's anything else you need, feel free to ask"
+        },
+        {
+            "role": "user",
+            "content": "no worries, that's all for now. thx again!",
+            "intent": ""
+        },
+        {
+            "role": "assistant",
+            "content": "You're welcome! If you have any questions in the future or need assistance with planning your visit to the Empire State Building, feel free to reach out. Have a great day"
+        },
+        {
+            "goal_completetion": false
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "hi, can u tell me which celebs visited recently? any events coming up with celebs?",
+            "intent": "user wants to know about special events"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! While I don't have information on recent celebrity visits to the Empire State Building, I can help with details about upcoming events or general visit planning. If you're interested in celebrity events elsewhere, I can guide you on how to find that information. Let me know how I can assist you further"
+        },
+        {
+            "role": "user",
+            "content": "oh ok, do u know if there are any celeb events or appearances scheduled at the empire state building soon?",
+            "intent": "user wants to know about special events"
+        },
+        {
+            "role": "assistant",
+            "content": "I don't have specific details on upcoming celebrity events or appearances at the Empire State Building. However, you can check the Empire State Building's official website or their social media channels for the latest updates on special events and appearances. If you need help with anything else related to your visit, feel free to ask"
+        },
+        {
+            "role": "user",
+            "content": "thanks! i'll check their website. do u know if they usually announce these events in advance?",
+            "intent": "others"
+        },
+        {
+            "role": "assistant",
+            "content": "You're welcome! Yes, the Empire State Building typically announces special events and appearances in advance, often through their official website and social media channels. This helps visitors plan their trips accordingly. If there's anything else you need help with, just let me know"
+        },
+        {
+            "role": "user",
+            "content": "got it, thanks for the info! i'll keep an eye on their updates. appreciate the help!",
+            "intent": "others"
+        },
+        {
+            "role": "assistant",
+            "content": "You're welcome! I'm glad I could help. Do you need more information or have any other questions about the special events and exhibits? Feel free to ask if there's anything else I can assist you with"
+        },
+        {
+            "role": "user",
+            "content": "nope, that's all for now. thanks again!",
+            "intent": ""
+        },
+        {
+            "role": "assistant",
+            "content": "You're welcome! If you have any more questions in the future or need assistance planning your visit to the Empire State Building, don't hesitate to ask. Enjoy your day"
+        },
+        {
+            "goal_completetion": false
+        }
+    ]
+]
